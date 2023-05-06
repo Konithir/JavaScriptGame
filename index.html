@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GAME</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="GameStyle.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    </head>
+    <body>
+        <div id="MenuDiv">
+            <button class="PlayButton button" type="button">Play</button>
+            <br>
+             <button id="ControlsButton" type="button" class="button">Controls</button> 
+        </div>
+        <div id="ControlsDiv">
+            Use Left and Right arrow or A and D to move<br>
+            Space to Jump<br>
+            F to Shoot<br>
+            R to Reload your weapon<br>
+            <button class="PlayButton button" type="button">Play</button> 
+            <br>
+             <button id="MenuButton" type="button" class="button">Main Menu</button> 
+        </div>
+        <div id="GameAreaDiv">
+            <button id="pause" type="button">Pause</button>
+        <canvas id="GameArea"> Your browser does not include support for the canvas element.</canvas>
+        </div>
+        
+        <div id="fadeDiv"></div>
+            <script type="text/javascript" src="Game.js"></script>
+    </body>
+</html>

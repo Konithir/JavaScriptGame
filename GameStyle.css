@@ -1,0 +1,60 @@
+
+#GameArea{
+    width:70em;
+    height:45em;
+    background-color: skyblue;
+    border: 2px solid black;
+    z-index: 1;
+}
+#GameAreaDiv{
+    display:none;
+    padding:0;
+    margin:0;
+}
+#fadeDiv{
+    border: 2px solid black;
+    left:0.5em;
+    top:0.5em;
+      width:70em;
+    height:45em;
+    background-color:black;
+    opacity: 0.50;
+    position:absolute;
+    display:none;
+    z-index:2;
+}
+#pause{
+    position:absolute;
+    z-index: 3;
+      left:70em;
+    top:1em;
+    padding:0;
+    margin:0;
+}
+#MenuDiv{
+    width:50em;
+    height:25em;
+    border: 2px solid black;
+    background-color: darkgrey;
+    text-align: center;
+    padding: 10em;
+    display:block;
+}
+#ControlsDiv{
+    width:50em;
+    height:25em;
+    border: 2px solid black;
+    background-color: darkgrey;
+    text-align: center;
+    padding: 10em;
+    display:none;
+}
+.button{
+    width:12em;
+    height:8em;
+    margin:5em;
+}
+.button:hover{
+    background-color:black;
+    color:white;
+}
